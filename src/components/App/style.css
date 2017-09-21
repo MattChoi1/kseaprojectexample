@@ -1,0 +1,70 @@
+.Main {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.footer > .copyright {
+    color: #888;
+}
+
+.footer {
+    padding: 5px;
+}
+
+
+input[type="text"] {
+    width: 600px;
+    height: 34px;
+}
+
+.LOGO_SPEC {
+    font-size: 40px;
+}
+
+.item_box {
+    display: inline-block;
+    border: 1px solid #ddd;
+    width: 150px;
+    height: 93px;
+    transition: width 0.2s linear;
+}
+
+.clear_box {
+    clear: both;
+}
+
+
+.box_scroll_view {
+    width: 620px;
+    margin: auto;
+    border: 1px solid #ccc;
+    height: 187.5px;
+    overflow:hidden;
+}
+
+.box_location {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    overflow:hidden;
+}
+
+.detailed_box {
+    width: 600px;
+    height: 187.5px;
+    border: 1px solid #ccc;
+}
+
+.no_display {
+    display:none;
+}
